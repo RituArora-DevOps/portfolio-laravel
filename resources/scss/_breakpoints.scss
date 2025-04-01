@@ -1,0 +1,39 @@
+// _breakpoints.scss
+
+// Importing variables from the 'variables3' module, aliased as 'vars' for easier reference
+@use 'variables' as vars;
+
+// Mixin to create a media query for minimum width (responsive design)
+// This allows styles to be applied when the viewport is equal to or wider than the specified breakpoint
+@mixin media-breakpoint-up($breakpoint) {
+  // Check if the specified breakpoint exists in the grid breakpoints map
+  @if map-has-key(vars.$grid-breakpoints, $breakpoint) {
+    // Get the minimum width value for the specified breakpoint
+    $min-width: map-get(vars.$grid-breakpoints, $breakpoint);
+    // Create a media query for the minimum width
+    @media (min-width: $min-width) {
+      // Place the content passed to the mixin here
+      @content;
+    }
+  }
+}
+
+// Mixin to create a media query for maximum width (responsive design)
+// This allows styles to be applied when the viewport is smaller than the specified breakpoint
+@mixin media-breakpoint-down($breakpoint) {
+  // Check if the specified breakpoint exists in the grid breakpoints map
+  @if map-has-key(vars.$grid-breakpoints, $breakpoint) {
+    // Get the maximum width value for the specified breakpoint and adjust for rounding
+    $max-width: map-get(vars.$grid-breakpoints, $breakpoint) - 0.02px;
+    // Create a media query for the maximum width
+    @media (max-width: $max-width) {
+      // Place the content passed to the mixin here
+      @content;
+    }
+  }
+}
+/*
+The Purpose of the - 0.02px Adjustment:
+By subtracting 0.02px, you reduce the likelihood of a "borderline" viewport width (e.g., 1000px) causing the media query to be skipped or improperly applied.
+
+The 0.02px adjustment ensures that the media query activates just below the specified breakpoint, even if there's rounding involved. For instance, if the width is 1000px or 1000.02px, the adjusted max-width would be 999.98px, which guarantees that the media query works correctly when the viewport width is at the breakpoint's value or just slightly above it.*/

@@ -1,0 +1,22 @@
+@use "variables" as vars; // Import your variables module for access to grid breakpoints
+
+// Mixin for applying styles at or above a specified breakpoint
+@mixin media-breakpoint-up($breakpoint) {
+  @media (min-width: map-get(vars.$grid-breakpoints, $breakpoint)) { // Use the specified breakpoint's min-width
+    @content; // Apply the content passed to the mixin
+  }
+}
+
+// Mixin for applying styles at or below a specified breakpoint
+@mixin media-breakpoint-down($breakpoint) {
+  @media (max-width: (map-get(vars.$grid-breakpoints, $breakpoint) - 0.02px)) { // Use the specified breakpoint's max-width
+    @content; // Apply the content passed to the mixin
+  }
+}
+
+// Mixin for applying styles between two specified breakpoints
+@mixin media-breakpoint-between($start, $end) {
+  @media (min-width: map-get(vars.$grid-breakpoints, $start)) and (max-width: (map-get(vars.$grid-breakpoints, $end) - 0.02px)) { // Combine min-width and max-width
+    @content; // Apply the content passed to the mixin
+  }
+}

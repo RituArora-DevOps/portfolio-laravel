@@ -1,0 +1,106 @@
+@use "variables"; // Import your variables
+@use "mixins"; // Import your mixins
+
+.project {
+    border: 1px solid #ddd; /* Light gray border around the project card */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    overflow: hidden; /* Prevent content from overflowing the border radius */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    position: relative; /* Position relative for child elements if needed */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column layout for children */
+    justify-content: flex-start; /* Align items at the start */
+    padding: 15px; /* Padding inside the project box */
+    background-color: #fff; /* White background */
+    min-height: 350px; /* Use min-height instead of fixed height */
+
+    &:hover {
+        transform: translateY(-5px); /* Slight lift on hover */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth effect */
+    }
+
+    img {
+        width: 100%; /* Full width */
+        height: auto; /* Allow height to adjust */
+        max-height: 150px; /* Cap the height to prevent cutting */
+        //object-fit: cover; /* Cover the area without stretching */
+        transition: transform 0.3s; /* Smooth transition for scaling effect on hover */
+
+        &:hover {
+            transform: scale(1.05); /* Enlarge the image on hover */
+        }
+    }
+
+    h3 {
+        margin: 15px 0 5px; /* Space above and below the heading */
+        font-size: 1.5rem; /* Default font size */
+    }
+
+    p {
+        flex-grow: 1; /* Allow paragraph to take up remaining space */
+        margin: 10px 0 0; /* Add some margin for spacing */
+        color: #555; /* Dark gray for text */
+        overflow: hidden; /* Prevent overflow */
+        white-space: normal; /* Allow text to wrap */
+        display: block; /* Ensure block display for wrapping */
+        line-height: 1.4; /* Adjust line height for readability */
+        font-size: 1rem; /* Default font size */
+    }
+}
+
+// Responsive styles
+@include mixins.media-breakpoint-down(sm) {
+    .project {
+        min-height: auto; /* Allow height to be flexible on smaller screens */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .project img {
+        max-height: 80px; /* Smaller max height for images */
+    }
+
+    .project h3 {
+        font-size: 1.2rem; /* Decrease heading font size */
+    }
+
+    .project p {
+        font-size: 0.9rem; /* Decrease paragraph font size */
+        margin: 5px 0; /* Adjust margin for smaller screens */
+    }
+}
+
+@include mixins.media-breakpoint-up(md) {
+    .project {
+        min-height: 350px; /* Set a minimum height for medium screens */
+    }
+
+    .project img {
+        max-height: 120px; /* Max height for medium screens */
+    }
+
+    .project h3 {
+        font-size: 1.3rem; /* Decrease heading font size */
+    }
+
+    .project p {
+        font-size: 0.95rem; /* Decrease paragraph font size */
+    }
+}
+
+@include mixins.media-breakpoint-up(lg) {
+    .project {
+        min-height: 400px; /* Increased minimum height for larger screens */
+    }
+
+    .project img {
+        max-height: 200px; /* Adjusted max height for larger screens */
+    }
+
+    .project h3 {
+        font-size: 1.5rem; /* Reset to default for larger screens */
+    }
+
+    .project p {
+        font-size: 1rem; /* Reset to default for larger screens */
+    }
+}

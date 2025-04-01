@@ -1,0 +1,36 @@
+@use 'sass:color'; // Importing the Sass color module for color manipulation functions
+@use 'variables' as vars; // Importing variables from 'variables3' file and aliasing it as 'vars' for easier access
+
+// Styling for the body element
+body {
+    background: vars.$background-color; // Set the background color using a variable defined in 'variables3'
+    color: vars.$primary-color; // Set the text color using the primary color variable from 'variables3'
+}
+
+// Styling for biography and career highlights sections
+#biography, #career-highlights {
+    padding: 2rem; // Add padding around the content for better spacing
+    background-color: vars.$light-color; // Set a light background color for these sections using a variable
+    border-radius: 5px; // Apply rounded corners for a softer appearance
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Add a subtle shadow for depth and to make the sections stand out
+}
+
+#quote-of-the-day {
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-left: 5px solid #007bff; /* Blue left border */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#quote-text {
+    font-style: italic; /* Italics for the quote */
+    font-size: 1.0em; /* Larger font size for emphasis */
+    margin: 0; /* Remove default margin */
+}
+
+#quote-author {
+    text-align: right; /* Align author to the right */
+    font-weight: bold; /* Bold author name */
+    margin-top: 10px; /* Margin above the author */
+}

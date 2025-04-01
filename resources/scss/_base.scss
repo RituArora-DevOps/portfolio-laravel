@@ -1,0 +1,13 @@
+// _base.scss
+
+// Importing the variables from the 'variables3' module
+@use "variables";
+
+// Applying styles to the body element
+body {
+  // Set the background color using the variable defined in variables3
+  background: $background-color; 
+  
+  // Set the text color using the primary color variable defined in variables3
+  color: $primary-color; 
+}

@@ -1,0 +1,7 @@
+/portfolio-backend
+├── public/
+│   ├── css/            ← ✅ Put your compiled CSS here
+│   ├── js/             ← ✅ Put JS files here
+│   ├── images/         ← ✅ Put all your image assets here
+├── resources/
+│   └── scss/           ← ✅ Put your SASS/SCSS source files here

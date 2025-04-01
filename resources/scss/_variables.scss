@@ -1,0 +1,78 @@
+// Variables for updated modern palette
+$primary-color: #1A252F;        // Rich dark blue
+$secondary-color: #3498DB;     // Vibrant blue for accents
+$tertiary-color: #7F8C8D;      // Neutral for text
+$accent-color: #E67E22;        // Bright orange for emphasis
+$light-color: #F8F9FA;         // Soft white-gray
+$background-color: linear-gradient(to bottom, #ECEFF1, #F0F2F5); // Gradient background
+$teal-color: #1abc9c;          // Prominent teal color for text
+ // Gradient background
+
+// Custom breakpoints
+// Define the grid breakpoints for responsive design
+$grid-breakpoints: (
+  xs: 0,        // Extra small devices (phones, <576px)
+  sm: 576px,    // Small devices (tablets, ≥576px)
+  md: 768px,    // Medium devices (small laptops, ≥768px)
+  lg: 992px,    // Large devices (desktops, ≥992px)
+  xl: 1200px,   // Extra large devices (large desktops, ≥1200px)
+  xxl: 1400px   // Extra extra large devices (very large screens, ≥1400px)
+);
+
+ 
+/*
+
+// Palette 1: Sleek Minimalism
+$primary-color: #333333;        // Charcoal Gray
+$secondary-color: #6C7A89;      // Light Slate Gray
+$tertiary-color: #F4F4F4;       // Soft White
+$accent-color: #1E90FF;         // Electric Blue
+$light-color: #F4F4F4;          // Soft White (for consistency)
+$background-color: linear-gradient(to bottom, #ECEFF1, #F0F2F5); // Gradient background
+
+
+
+// Palette 2: Professional Elegance
+$primary-color: #2C3E50;        // Midnight Blue
+$secondary-color: #BDC3C7;      // Silver
+$tertiary-color: #ECF0F1;       // Off-White
+$accent-color: #F39C12;         // Golden Yellow
+$light-color: #ECF0F1;          // Off-White (for consistency)
+$background-color: linear-gradient(to bottom, #ECEFF1, #F0F2F5); // Gradient background
+
+
+// Palette 3: Modern Technology
+$primary-color: #2F2F2F;        // Dark Charcoal
+$secondary-color: #00B8D4;      // Neon Cyan
+$tertiary-color: #34495E;       // Dark Gray
+$accent-color: #FF6347;         // Coral
+$light-color: #FFFFFF;          // White
+$background-color: linear-gradient(to bottom, #ECEFF1, #F0F2F5); // Gradient background
+
+
+// Palette 4: Clean & Fresh
+$primary-color: #FFFFFF;        // White
+$secondary-color: #A9C7E1;      // Light Blue
+$tertiary-color: #2C3E50;       // Navy Blue
+$accent-color: #FF6600;         // Orange
+$light-color: #F8F9FA;          // Soft White-Gray
+$background-color: linear-gradient(to bottom, #ECEFF1, #F0F2F5); // Gradient background
+
+
+// Palette 5: Luxurious & Bold
+$primary-color: #000000;        // Black
+$secondary-color: #B76E79;      // Rose Gold
+$tertiary-color: #F5F5F5;       // White Smoke
+$accent-color: #E5E4E2;         // Platinum
+$light-color: #F5F5F5;          // White Smoke (for consistency)
+$background-color: linear-gradient(to bottom, #ECEFF1, #F0F2F5); // Gradient background
+
+
+// Palette 6: Warm & Inviting
+$primary-color: #D2B48C;        // Warm Taupe
+$secondary-color: #E27D60;      // Terracotta
+$tertiary-color: #F2E1C1;       // Soft Beige
+$accent-color: #A3B18C;         // Sage Green
+$light-color: #F8F9FA;          // Soft White-Gray
+$background-color: linear-gradient(to bottom, #ECEFF1, #F0F2F5); // Gradient background
+*/
