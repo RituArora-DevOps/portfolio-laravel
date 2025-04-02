@@ -27,6 +27,7 @@ return [
 
   'source_code' => 'Code source',
   'ppt' => 'PPT',
+  'view_demo' => 'Voir la démonstration sur YouTube',
   'view_live' => 'Voir en ligne',
 
   'previous' => 'Précédent',

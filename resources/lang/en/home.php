@@ -28,6 +28,7 @@ return [
 
     'source_code' => 'Source Code',
     'ppt' => 'PPT',
+    'view_demo' => 'Watch Demo on YouTube',
     'view_live' => 'View Live',
 
     'previous' => 'Previous',
