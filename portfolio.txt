@@ -1,0 +1,3 @@
+https://ritu.fsd13.ca
+
+I’ve upgraded my portfolio, originally created during the Web Design-II course, using Laravel for better structure and maintainability. It now supports multiple languages (English and French) through Blade templating and localization. In the future, I plan to add database support and an admin panel for easier updates. I’m still working on the portfolio — it’s not perfect yet — but I wanted to explore the Laravel framework a bit, especially since I used Slim during the Teams project.
