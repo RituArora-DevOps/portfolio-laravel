@@ -12,6 +12,6 @@ services:
       - key: APP_KEY
         value: base64:1NNnixiD/5EmtyNMY+0ww774EZ3UYYf1l6TXWHOTL14=
       - key: APP_DEBUG
-        value: false
+        value: true
       - key: APP_URL
         value: https://ritu.fsd13.ca
