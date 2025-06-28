@@ -15,6 +15,7 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 # Copy app files
 COPY . .
+RUN chmod -R 775 storage bootstrap/cache
 
 # Install PHP dependencies
 RUN composer install --no-interaction --prefer-dist --optimize-autoloader
@@ -23,7 +24,7 @@ RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 RUN npm install && npm run build
 
 # Cache config
-RUN php artisan config:cache
+# RUN php artisan config:cache
 
 # Expose port
 EXPOSE 8000
