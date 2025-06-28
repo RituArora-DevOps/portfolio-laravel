@@ -13,8 +13,8 @@ Route::get('/clear-cache-now', function () {
 
 // Redirect '/' to default locale
 Route::get('/', function () {
-    return 'Laravel is running!';
-    // return redirect('/' . app()->getLocale());
+    // return 'Laravel is running!';
+    return redirect('/' . app()->getLocale());
 });
 
 // Redirect things like '/about' → '/en/about' if no locale present
