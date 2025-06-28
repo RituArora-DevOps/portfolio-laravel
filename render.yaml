@@ -15,3 +15,11 @@ services:
         value: true
       - key: APP_URL
         value: https://ritu.fsd13.ca
+      - key: DB_CONNECTION
+        value: null
+      - key: SESSION_DRIVER
+        value: file
+      - key: CACHE_STORE
+        value: file
+      - key: QUEUE_CONNECTION
+        value: sync
