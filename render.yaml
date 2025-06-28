@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: laravel-resume
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: APP_NAME
+        value: Laravel
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        value: base64:1NNnixiD/5EmtyNMY+0ww774EZ3UYYf1l6TXWHOTL14=
+      - key: APP_DEBUG
+        value: false
+      - key: APP_URL
+        value: https://ritu.fsd13.ca
