@@ -10,8 +10,9 @@
       <h1 class="display-4" id="main-heading">{{ __('home.name') }}</h1>
       <h2 class="tagline">{{ __('home.tagline') }}</h2>
       <p class="lead">{{ __('home.intro') }}</p>
-      <a class="btn btn-primary btn-lg" href="{{ asset('docs/resume.pdf') }}" role="button" target="_blank"
-      rel="noopener noreferrer">
+      <a class="btn btn-primary btn-lg"
+      href="{{ asset(app()->getLocale() === 'fr' ? 'docs/resume_fr.pdf' : 'docs/resume_en.pdf')}}" role="button"
+      target="_blank" rel="noopener noreferrer">
       {{ __('navbar.resume') }}
       </a>
 
