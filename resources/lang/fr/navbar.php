@@ -6,8 +6,8 @@ return [
     'skills' => 'Compétences',
     'projects' => 'Projets',
     'publications' => 'Publications',
-    'certifications' => 'Certifications',
-    'contact' => 'Contact',
-    'contact_me' => 'Contactez-moi',
+    // 'certifications' => 'Certifications',
+    // 'contact' => 'Contact',
+    // 'contact_me' => 'Contactez-moi',
     'language_switch' => 'English',
 ];
