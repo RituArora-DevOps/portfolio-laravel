@@ -8,6 +8,6 @@ return [
     'publications' => 'Publications',
     // 'certifications' => 'Certifications',
     // 'contact' => 'Contact',
-    // 'contact_me' => 'Contactez-moi',
+    'resume' => 'Résumé',
     'language_switch' => 'English',
 ];
