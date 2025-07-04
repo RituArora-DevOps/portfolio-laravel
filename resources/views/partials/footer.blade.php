@@ -1,4 +1,7 @@
 <div class="social-icons">
+    <a href="mailto:arora0824@gmail.com" target="_blank" aria-label="Email">
+        <i class="bi bi-envelope-fill"></i>
+    </a>
     <a href="http://github.com/RituArora-DevOps" target="_blank" aria-label="{{ __('footer.github_aria') }}">
         <i class="bi bi-github"></i>
     </a>
