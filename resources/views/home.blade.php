@@ -10,9 +10,11 @@
       <h1 class="display-4" id="main-heading">{{ __('home.name') }}</h1>
       <h2 class="tagline">{{ __('home.tagline') }}</h2>
       <p class="lead">{{ __('home.intro') }}</p>
-      <a class="btn btn-primary btn-lg" href="{{ route('contact', ['lang' => app()->getLocale()]) }}" role="button">
+      <a class="btn btn-primary btn-lg" href="{{ asset('docs/resume.pdf') }}" role="button" target="_blank"
+      rel="noopener noreferrer">
       {{ __('navbar.resume') }}
       </a>
+
     </div>
     <div class="profile-image">
       <img src="{{ asset('images/dp-nobg2.png') }}" alt="{{ __('home.profile_alt') }}" class="img-fluid" />
