@@ -110,11 +110,4 @@
     </div>
   </section>
 
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="container py-5" aria-labelledby="testimonials-heading">
-    <h1 class="mb-4 text-center" id="testimonials-heading">{{ __('home.testimonials_heading') }}</h1>
-    <div id="testimonialContainer" class="row testimonial-section">
-    <!-- Testimonials will be dynamically inserted here -->
-    </div>
-  </section>
 @endsection

@@ -33,5 +33,5 @@ return [
   'previous' => 'Précédent',
   'next' => 'Suivant',
 
-  'testimonials_heading' => 'Ce que les gens disent',
+  // 'testimonials_heading' => 'Ce que les gens disent',
 ];
