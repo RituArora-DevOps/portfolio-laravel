@@ -2,15 +2,16 @@
 
 return [
     'page_title' => 'About Me',
-    'description' => 'Dr. Ritu Arora - Full Stack Developer, DevOps Engineer, and Computational Chemist...',
+    'description' => 'Dr. Ritu Arora - Full Stack Developer | DevOps Enthusiast | Scientific Software Developer',
     'biography_heading' => 'Biography',
-    'biography_text' => "With a BSc and MSc in Chemistry, followed by a PhD in Computational Chemistry and Molecular Modeling, my journey has been diverse. I've transitioned into full stack development, combining my scientific expertise with robust software engineering skills. I thrive on solving complex problems and creating innovative solutions.",
+    'biography_text' => "PhD in Computational Science transitioning into the tech world with hands-on DevOps experience and formal full stack development training. I combine deep scientific expertise with practical web development and system automation skills. Passionate about solving complex problems, I thrive in agile environments where I can contribute through continuous learning, software innovation, and collaborative development.",
     'career_heading' => 'Career Highlights',
     'career_items' => [
-        'Assistant Professor teaching Programming using Python and IT Skills for Chemists',
-        'Postdoctoral studies in Molecular Modeling and Computer Aided Drug Design (CADD)',
-        'Experience as a Linux Administrator and DevOps Engineer',
-        'Contributions to over 12 scientific publications in international peer-reviewed journals',
+        'Full Stack Developer training at John Abbott College and project-based learning in CI/CD and cloud technologies',
+        'Postdoctoral research in computational chemistry using simulation tools and workflow automation',
+        'Developed REST APIs and containerized scientific tools using Python, Shell, Docker, and SQLite',
+        'Assistant Professor teaching Python and IT Skills for Chemists',
+        '12+ peer-reviewed scientific publications and multiple conference presentations',
     ],
     'quote_heading' => 'Quote of the Day',
 ];
