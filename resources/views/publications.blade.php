@@ -111,23 +111,21 @@
 
             if (!toggleButton || !collapseEl) return;
 
+            // Update button text on collapse shown
             collapseEl.addEventListener('shown.bs.collapse', () => {
-                toggleButton.innerText = '{{ __('
-            publications.toggle_button_hide ') }}';
+                toggleButton.innerText = '{{ __("publications.toggle_button_hide") }}';
             });
 
+            // Update button text on collapse hidden
             collapseEl.addEventListener('hidden.bs.collapse', () => {
-                toggleButton.innerText = '{{ __('
-            publications.toggle_button_show ') }}';
+                toggleButton.innerText = '{{ __("publications.toggle_button_show") }}';
             });
 
-            // Optional: Set initial text correctly on page load
+            // Set initial state correctly (if expanded on page load)
             if (collapseEl.classList.contains('show')) {
-                toggleButton.innerText = '{{ __('
-            publications.toggle_button_hide ') }}';
+                toggleButton.innerText = '{{ __("publications.toggle_button_hide") }}';
             } else {
-                toggleButton.innerText = '{{ __('
-            publications.toggle_button_show ') }}';
+                toggleButton.innerText = '{{ __("publications.toggle_button_show") }}';
             }
         });
     </script>
