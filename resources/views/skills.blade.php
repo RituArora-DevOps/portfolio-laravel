@@ -14,13 +14,22 @@
                     <div class="card mb-4 shadow-sm">
                         <div class="card-body">
                             <h2 class="h5">{{ __('skills.technical_heading') }}</h2>
-                            <ul class="list-unstyled">
-                                @foreach(__('skills.technical_list') as $item)
-                                    <li class="mb-2"> {{ $item }}</li>
+
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                @foreach(__('skills.technical_list') as $category => $tools)
+                                    <div class="col">
+                                        <div class="card border-0 bg-light h-100">
+                                            <div class="card-body">
+                                                <h5 class="card-title">{{ $category }}</h5>
+                                                <p class="card-text">{{ $tools }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 @endforeach
-                            </ul>
+                            </div>
                         </div>
                     </div>
+
 
                     <div class="card shadow-sm">
                         <div class="card-body">

@@ -7,15 +7,16 @@ return [
 
     'technical_heading' => 'Compétences techniques',
     'technical_list' => [
-        'Langages : Java, C#, Python, Scripting Shell (Bash), JavaScript, SQL, YAML, JSON',
-        'Backend : Spring Boot, Node.js, Express.js, PHP, Next.js (routes API)',
-        'Frontend : React, JavaScript, HTML5, CSS3, JavaFX (FXML), Bootstrap, Tailwind CSS, PHP',
-        'Bases de données : MySQL, Microsoft SQL Server, PostgreSQL, MongoDB (NoSQL), JPA, Entity Framework',
-        'Outils DevSecOps : Docker, Kubernetes, Helm, Jenkins, Ansible, Terraform, OWASP ZAP, SonarQube, Trivy',
-        'Services cloud : AWS (EC2, S3, RDS, IAM, CodeBuild, CodePipeline, EKS), Azure (VMs, SQL DB, Blob), GCP (niveau de base)',
-        'Déploiement & hébergement : Vercel, Render, cPanel, XAMPP, InfinityFree',
-        'Autres outils & concepts : Git, GitHub, Postman, JUnit, Javadoc, Linux, Agile/Scrum, JIRA, Trello (Kanban), pipelines CI/CD',
+        'Langages' => 'Java, C#, Python, Scripting Shell (Bash), JavaScript, SQL, YAML, JSON',
+        'Backend' => 'Spring Boot, Node.js, Express.js, PHP, Next.js (routes API)',
+        'Frontend' => 'React, JavaScript, HTML5, CSS3, JavaFX (FXML), Bootstrap, Tailwind CSS, PHP',
+        'Bases de données' => 'MySQL, Microsoft SQL Server, PostgreSQL, MongoDB (NoSQL), JPA, Entity Framework',
+        'Outils DevSecOps' => 'Docker, Kubernetes, Helm, Jenkins, Ansible, Terraform, OWASP ZAP, SonarQube, Trivy',
+        'Services cloud' => 'AWS (EC2, S3, RDS, IAM, CodeBuild, CodePipeline, EKS), Azure (VMs, SQL DB, Blob), GCP (niveau de base)',
+        'Déploiement & hébergement' => 'Vercel, Render, cPanel, XAMPP, InfinityFree',
+        'Autres outils & concepts' => 'Git, GitHub, Postman, JUnit, Javadoc, Linux, Agile/Scrum, JIRA, Trello (Kanban), pipelines CI/CD',
     ],
+
 
     'soft_heading' => 'Compétences interpersonnelles',
     'soft_list' => [

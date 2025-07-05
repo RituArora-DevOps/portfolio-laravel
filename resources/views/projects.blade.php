@@ -68,61 +68,61 @@
                     'desc'
                     => __('projects.k8s.desc')
                 ])
-            </div>
-        </section>
-
-        <section id="feedback" class="mt-5">
-            <h2>{{ __('projects.feedback_heading') }}</h2>
-            <p>{{ __('projects.feedback_text') }}</p>
-            <form id="feedbackForm">
-                <div class="mb-3">
-                    <label for="userFeedback" class="form-label">{{ __('projects.feedback_comment_label') }}</label>
-                    <textarea id="userFeedback" class="form-control" rows="3" required></textarea>
-                    <div class="invalid-feedback">{{ __('projects.feedback_comment_invalid') }}</div>
                 </div>
+        </se    ction>
+
+        <sec    tion id="feedback" class="mt-5">
+                <h2>{{ __('projects.feedback_heading') }}</h2>
+                <p>{{ __('projects.feedback_text') }}</p>
+            <form id="feedbackForm">
+                    <div class="mb-3">
+                        <label for="userFeedback" class="form-label">{{ __('projects.feedback_comment_label') }}</label>
+                        <textarea id="userFeedback" class="form-control" rows="3" required></textarea>
+                        <div class="invalid-feedback">{{ __('projects.feedback_comment_invalid') }}</div>
+                    </div>
                 <div class="mb-3">
                     <label class="form-label">{{ __('projects.feedback_rating_label') }}</label>
-                        <select id="rating" class="form-select" required>
-                            <option value="" selected disabled>{{ __('projects.feedback_rating_select') }}</option>
-                            <option value="5">⭐⭐⭐⭐⭐ - {{ __('projects.rating_5') }}</option>
-                            <option value="4">⭐⭐⭐⭐ - {{ __('projects.rating_4') }}</option>
-                            <option value="3">⭐⭐⭐ - {{ __('projects.rating_3') }}</option>
-                            <option value="2">⭐⭐ - {{ __('projects.rating_2') }}</option>
-                            <option value="1">⭐ - {{ __('projects.rating_1') }}</option>
-                        </select>
-                        <div class="invalid-feedback">{{ __('projects.feedback_rating_invalid') }}</div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">{{ __('projects.feedback_submit') }}</button>
+                    <select id="rating" class="form-select" required>
+                        <option value="" selected disabled>{{ __('projects.feedback_rating_select') }}</option>
+                        <option value="5">⭐⭐⭐⭐⭐ - {{ __('projects.rating_5') }}</option>
+                        <option value="4">⭐⭐⭐⭐ - {{ __('projects.rating_4') }}</option>
+                        <option value="3">⭐⭐⭐ - {{ __('projects.rating_3') }}</option>
+                        <option value="2">⭐⭐ - {{ __('projects.rating_2') }}</option>
+                        <option value="1">⭐ - {{ __('projects.rating_1') }}</option>
+                    </select>
+                    <div class="invalid-feedback">{{ __('projects.feedback_rating_invalid') }}</div>
+                </div>
+                <button type="submit" class="btn btn-primary">{{ __('projects.feedback_submit') }}</button>
             </form>
-                <h3 class="mt-4">{{ __('projects.recent_feedback') }}</h3>
-                <ul id="feedbackList" class="list-group"></ul>
-            </section>
-    </ma    in>
+            <h3 class="mt-4">{{ __('projects.recent_feedback') }}</h3>
+            <ul id="feedbackList" class="list-group"></ul>
+        </section>
+        </ma in>
 @endsection
 
-@section('scripts')
-    <script src="{{ asset('js/interactive.js') }}" defer></script>
-    <script src="{{ asset('js/form-validation.js') }}" defer></script>
-@endsection
+    @section('scripts')
+        <script src="{{ asset('js/interactive.js') }}" defer></script>
+        <script src="{{ asset('js/form-validation.js') }}" defer></script>
+    @endsection
 
-@push('styles')
-    <style>
-    .project {
-        height: 350px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        padding: 15px;
-        background-color: #fff;
-        transition: transform 0.3s ease-in-out;
-    }
+    @push('styles')
+        <style>
+        .project {
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            background-color: #fff;
+            transition: transform 0.3s ease-in-out;
+        }
 
-    .project img {
-        max-height: 120px;
-        object-fit: cover;
-        transform: scale(1.05);
-    }
-    </style>
-@endpush
+        .project img {
+            max-height: 120px;
+            object-fit: cover;
+            transform: scale(1.05);
+        }
+        </style>
+    @endpush
