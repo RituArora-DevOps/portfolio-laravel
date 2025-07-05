@@ -1,31 +1,28 @@
 <?php
 
 return [
-    'page_title' => 'Skills',
-    'description' => 'Skills of Dr. Ritu Arora, Full Stack Developer, DevOps Engineer, and Computational Chemist.',
-    'heading' => 'Skills',
+    'page_title' => 'Compétences',
+    'description' => 'Compétences techniques et interpersonnelles de Dr. Ritu Arora, Développeuse Full Stack, Ingénieure DevOps et Scientifique spécialisée en logiciels.',
+    'heading' => 'Compétences',
 
-    'technical_heading' => 'Technical Skills',
+    'technical_heading' => 'Compétences techniques',
     'technical_list' => [
-        'Programming Languages: Python, Java, Bash, PowerShell, JavaScript, SQL, YAML, JSONPath',
-        'Web Development: HTML, CSS, JavaScript, React, Node.js, PHP, MySQL',
-        'DevOps Tools: Docker, Kubernetes, Ansible, Jenkins, Grafana, Terraform, Prometheus',
-        'Cloud Services: AWS, GCP',
+        'Langages : Java, C#, Python, Scripting Shell (Bash), JavaScript, SQL, YAML, JSON',
+        'Backend : Spring Boot, Node.js, Express.js, PHP, Next.js (routes API)',
+        'Frontend : React, JavaScript, HTML5, CSS3, JavaFX (FXML), Bootstrap, Tailwind CSS, PHP',
+        'Bases de données : MySQL, Microsoft SQL Server, PostgreSQL, MongoDB (NoSQL), JPA, Entity Framework',
+        'Outils DevSecOps : Docker, Kubernetes, Helm, Jenkins, Ansible, Terraform, OWASP ZAP, SonarQube, Trivy',
+        'Services cloud : AWS (EC2, S3, RDS, IAM, CodeBuild, CodePipeline, EKS), Azure (VMs, SQL DB, Blob), GCP (niveau de base)',
+        'Déploiement & hébergement : Vercel, Render, cPanel, XAMPP, InfinityFree',
+        'Autres outils & concepts : Git, GitHub, Postman, JUnit, Javadoc, Linux, Agile/Scrum, JIRA, Trello (Kanban), pipelines CI/CD',
     ],
-    'technical_note' => 'This section highlights my technical expertise, showcasing the languages, tools, and platforms I work with.',
 
-    'soft_heading' => 'Soft Skills',
+    'soft_heading' => 'Compétences interpersonnelles',
     'soft_list' => [
-        'Problem-solving',
-        'Communication',
-        'Team Collaboration',
-        'Project Management',
+        'Résolution de problèmes et pensée critique',
+        'Communication claire et efficace',
+        'Collaboration en équipe et mentorat',
+        'Adaptabilité et apprentissage continu',
+        'Gestion de projet et du temps',
     ],
-    'soft_note' => 'These skills enhance my ability to work effectively in diverse teams and manage projects successfully.',
-
-    'check_proficiency' => 'Check Proficiency',
-    'table_heading' => 'Technical Skills & Proficiency',
-    'table_columns' => ['Skill Name', 'Proficiency Level', 'Tools/Technologies', 'Actions'],
-    'form_placeholders' => ['Skill Name', 'Proficiency Level', 'Tools/Technologies'],
-    'form_button' => 'Add Skill',
 ];

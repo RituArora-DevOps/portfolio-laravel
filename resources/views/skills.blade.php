@@ -4,57 +4,40 @@
 @section('description', __('skills.description'))
 
 @section('content')
-<main class="flex-grow-1">
-    <section id="skills" class="container my-4">
-        <h1 class="mb-4">{{ __('skills.heading') }}</h1>
+    <main class="flex-grow-1 py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
 
-        <article class="mb-5">
-            <h2>{{ __('skills.technical_heading') }}</h2>
-            <ul class="list-unstyled">
-                @foreach(__('skills.technical_list') as $item)
-                    <li><strong>{{ $item }}</strong></li>
-                @endforeach
-            </ul>
-            <p>{{ __('skills.technical_note') }}</p>
-        </article>
+                    <h1 class="display-5 mb-4 text-center">{{ __('skills.heading') }}</h1>
 
-        <article>
-            <h2>{{ __('skills.soft_heading') }}</h2>
-            <ul class="list-unstyled">
-                @foreach(__('skills.soft_list') as $item)
-                    <li>{{ $item }}</li>
-                @endforeach
-            </ul>
-            <p>{{ __('skills.soft_note') }}</p>
-        </article>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h2 class="h5">{{ __('skills.technical_heading') }}</h2>
+                            <ul class="list-unstyled">
+                                @foreach(__('skills.technical_list') as $item)
+                                    <li class="mb-2"> {{ $item }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    </div>
 
-        <button id="checkProficiencyBtn" class="btn btn-primary">{{ __('skills.check_proficiency') }}</button>
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="h5">{{ __('skills.soft_heading') }}</h2>
+                            <ul class="list-unstyled">
+                                @foreach(__('skills.soft_list') as $item)
+                                    <li class="mb-2"> {{ $item }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    </div>
 
-        <article>
-            <h2>{{ __('skills.table_heading') }}</h2>
-            <table id="skillsTable" class="table table-bordered">
-                <thead>
-                    <tr>
-                        @foreach(__('skills.table_columns') as $col)
-                            <th>{{ $col }}</th>
-                        @endforeach
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Dynamic rows will be inserted here -->
-                </tbody>
-            </table>
+                </div>
+            </div>
+        </div>
+    </main>
 
-            <!-- Form to Add New Skill -->
-            <form id="addSkillForm">
-                <input type="text" id="skillName" placeholder="{{ __('skills.form_placeholders.0') }}" required>
-                <input type="text" id="proficiencyLevel" placeholder="{{ __('skills.form_placeholders.1') }}" required>
-                <input type="text" id="tools" placeholder="{{ __('skills.form_placeholders.2') }}" required>
-                <button type="submit">{{ __('skills.form_button') }}</button>
-            </form>
-        </article>
-    </section>
-</main>
 @endsection
 
 @section('scripts')

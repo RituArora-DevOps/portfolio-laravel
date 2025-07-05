@@ -51,23 +51,6 @@ return [
         'desc' => 'Implemented Kubernetes for orchestrating containerized applications, achieving higher scalability and reliability.',
     ],
 
-    'cadd3d' => [
-        'title' => '3D Drug Design and Simulation',
-        'desc' => 'Conducted molecular docking studies for drug design using software like AutoDock and Chimera.',
-    ],
-    'qsar' => [
-        'title' => 'Quantitative Structure-Activity Relationship (QSAR) Analysis',
-        'desc' => 'Performed QSAR studies using machine learning algorithms to predict the biological activity of various chemical compounds.',
-    ],
-    'virtual' => [
-        'title' => 'Virtual Screening of Compounds',
-        'desc' => 'Conducted virtual screening of compound libraries to identify potential drug candidates for specific targets.',
-    ],
-    'pharma' => [
-        'title' => 'Pharmacophore Modeling',
-        'desc' => 'Developed pharmacophore models to understand the interactions between drug candidates and their biological targets.',
-    ],
-
     'feedback_heading' => 'Give Your Feedback',
     'feedback_text' => 'Share your thoughts on my projects.',
     'feedback_comment_label' => 'Your Comment:',

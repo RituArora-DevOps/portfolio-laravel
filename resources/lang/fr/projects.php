@@ -51,23 +51,6 @@ return [
         'desc' => 'Utilisation de Kubernetes pour l’orchestration d’applications conteneurisées.',
     ],
 
-    'cadd3d' => [
-        'title' => 'Conception et simulation de médicaments en 3D',
-        'desc' => 'Études de docking moléculaire pour la conception de médicaments avec AutoDock et Chimera.',
-    ],
-    'qsar' => [
-        'title' => 'Analyse QSAR',
-        'desc' => 'Études QSAR utilisant le machine learning pour prédire l’activité biologique de composés chimiques.',
-    ],
-    'virtual' => [
-        'title' => 'Criblage virtuel de composés',
-        'desc' => 'Criblage virtuel de bibliothèques de composés pour identifier de nouveaux candidats médicaments.',
-    ],
-    'pharma' => [
-        'title' => 'Modélisation pharmacophore',
-        'desc' => 'Création de modèles pharmacophores pour comprendre les interactions médicament-cible.',
-    ],
-
     'feedback_heading' => 'Donnez votre avis',
     'feedback_text' => 'Partagez vos impressions sur mes projets.',
     'feedback_comment_label' => 'Votre commentaire :',
