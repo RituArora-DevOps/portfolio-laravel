@@ -13,5 +13,4 @@ return [
         'Assistant Professor teaching Python and IT Skills for Chemists',
         '12+ peer-reviewed scientific publications and multiple conference presentations',
     ],
-    'quote_heading' => 'Quote of the Day',
 ];

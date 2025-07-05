@@ -47,9 +47,3 @@
     </main>
 
 @endsection
-
-@section('scripts')
-    @if (app()->getLocale() === 'en')
-        <script src="{{ asset('js/quote-api.js') }}" defer></script>
-    @endif
-@endsection

@@ -15,20 +15,41 @@
                         <div class="card-body">
                             <h2 class="h5">{{ __('skills.technical_heading') }}</h2>
 
-                            <div class="row row-cols-1 row-cols-md-2 g-4">
-                                @foreach(__('skills.technical_list') as $category => $tools)
-                                    <div class="col">
-                                        <div class="card border-0 bg-light h-100">
-                                            <div class="card-body">
-                                                <h5 class="card-title">{{ $category }}</h5>
-                                                <p class="card-text">{{ $tools }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                @endforeach
-                            </div>
+                            @php
+                                $iconMap = [
+                                    'Languages' => 'bi-code-slash',
+                                    'Backend' => 'bi-hdd-network',
+                                    'Frontend' => 'bi-window',
+                                    'Databases' => 'bi-database',
+                                    'DevSecOps Tools' => 'bi-shield-lock',
+                                    'Cloud Services' => 'bi-cloud-upload',
+                                    'Deployment & Hosting' => 'bi-upload',
+                                    'Other Tools & Concepts' => 'bi-tools',
+
+                                    // French equivalents
+                                    'Langages' => 'bi-code-slash',
+                                    'Bases de données' => 'bi-database',
+                                    'Outils DevSecOps' => 'bi-shield-lock',
+                                    'Services cloud' => 'bi-cloud-upload',
+                                    'Déploiement & hébergement' => 'bi-upload',
+                                    'Autres outils & concepts' => 'bi-tools',
+                                ];
+                            @endphp
+
+                            @foreach(__('skills.technical_list') as $category => $tools)
+                                <div class="mb-3">
+                                    <h5>
+                                        @if(isset($iconMap[$category]))
+                                            <i class="bi {{ $iconMap[$category] }} me-2"></i>
+                                        @endif
+                                        {{ $category }}
+                                    </h5>
+                                    <p class="mb-1">{{ $tools }}</p>
+                                </div>
+                            @endforeach
                         </div>
                     </div>
+
 
 
                     <div class="card shadow-sm">
