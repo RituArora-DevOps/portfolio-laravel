@@ -2,7 +2,7 @@
 
 return [
     'page_title' => 'About Me',
-    'description' => 'Dr. Ritu Arora - Full Stack Developer | DevOps Enthusiast | Scientific Software Developer',
+    'description' => 'Ritu Arora - Full Stack Developer | DevOps Enthusiast | Scientific Software Developer',
     'biography_heading' => 'Biography',
     'biography_text' => "PhD in Computational Science transitioning into the tech world with hands-on DevOps experience and formal full stack development training. I combine deep scientific expertise with practical web development and system automation skills. Passionate about solving complex problems, I thrive in agile environments where I can contribute through continuous learning, software innovation, and collaborative development.",
     'career_heading' => 'Career Highlights',

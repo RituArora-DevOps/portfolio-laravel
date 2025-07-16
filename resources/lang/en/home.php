@@ -18,7 +18,7 @@ return [
         'title' => 'Day Care Management System',
         'description' => 'A full-featured system for managing children records, educators, schedules, and parent communication in daycare centers.',
         'tech' => 'Technologies Used: PHP Slim, MeekroDB, Twig, Bootstrap, JS, Apache',
-    // ],
+    ],
     // 'portfolio' => [
     //     'title' => 'Personal Portfolio Website',
     //     'description' => 'A personal portfolio showcasing my skills, projects, and publications.',
