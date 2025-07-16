@@ -2,68 +2,65 @@
 
 return [
     'page_title' => 'Projects',
-    'page_description' => 'Explore the projects of Dr. Ritu Arora, showcasing innovative work in computational chemistry and software development.',
+    'page_description' => 'Explore real-world full stack and DevOps projects built using modern technologies.',
     'heading' => 'Projects',
 
-    'fullstack_heading' => 'Full Stack Developer Projects',
-    'devops_heading' => 'DevOps Projects',
-    'cadd_heading' => 'CADD Projects',
 
-    'personal_portfolio' => [
-        'title' => 'Personal Portfolio Website',
-        'desc' => 'Created a responsive portfolio using HTML, CSS, and JavaScript with Node.js backend. Integrated contact forms and projects showcase.',
-    ],
-    'inventory' => [
-        'title' => 'Inventory Management System',
-        'desc' => 'Developed a web application using React for the frontend and Express.js for the backend. Managed inventory data with MongoDB.',
-    ],
-    'mysql' => [
-        'title' => 'Scalable MySQL Database',
-        'desc' => 'Built a scalable database architecture using MySQL, optimized for performance with complex queries and relationships.',
-    ],
-    'recipe' => [
-        'title' => 'Recipe Blog Page',
-        'desc' => 'Developed a recipe blog using HTML, CSS, and JavaScript. Implemented user interaction features and integrated a recipe search functionality.',
-    ],
-    'task' => [
-        'title' => 'Task Management Tool',
-        'desc' => 'Developed a task management tool with a responsive design using Angular and Firebase for real-time data synchronization.',
-    ],
-
-    'jenkins' => [
-        'title' => 'CI/CD Pipeline with Jenkins',
-        'desc' => 'Implemented a CI/CD pipeline using Jenkins for automated testing and deployment, improving release cycles by 50%.',
-    ],
-    'docker' => [
-        'title' => 'Application Containerization with Docker',
-        'desc' => 'Containerized microservices using Docker, enabling consistent environments across development and production.',
-    ],
-    'aws' => [
-        'title' => 'Managed AWS Cloud Infrastructure',
-        'desc' => 'Managed cloud infrastructure on AWS, optimizing resources and costs through monitoring and automation scripts.',
-    ],
-    'prometheus' => [
-        'title' => 'Monitoring and Logging with Prometheus',
-        'desc' => 'Set up Prometheus and Grafana for monitoring applications and infrastructure, leading to enhanced performance insights.',
-    ],
-    'k8s' => [
-        'title' => 'Kubernetes Orchestration',
-        'desc' => 'Implemented Kubernetes for orchestrating containerized applications, achieving higher scalability and reliability.',
+    'projects_list' => [
+        'car_rental' => [
+            'title' => 'Car Rental Management System',
+            'description' => 'A full-featured web app for booking and managing car rentals with user authentication, vehicle listings, and admin controls.',
+            'tech' => 'Node.js, Express.js, MySQL, Bootstrap, Render',
+            'github' => 'https://github.com/RituArora-DevOps/RentnDrive',
+            'demo' => 'https://www.youtube.com/watch?v=VGSBVmFnqrc',
+            'live' => 'https://car-rental-web-dy3f.onrender.com',
+            'ppt' => 'https://rituarora-devops.github.io/projects-presentation/CarRentalSystem-final.pdf',
+        ],
+        'daycare' => [
+            'title' => 'Day Care Management System',
+            'description' => 'Secure multi-user platform to manage children’s profiles, educator dashboards, and class assignments.',
+            'tech' => 'Slim 4, MeekroDB, Twig, Bootstrap, MySQL, Monolog, AWS EC2',
+            'github' => 'https://github.com/FYFYBai/DayCare_Team4',
+            'live' => 'https://daycare-management.42web.io/',
+            'ppt' => 'https://rituarora-devops.github.io/projects-presentation/Team4-DayCareSystemManagement.pdf',
+        ],
+        'portfolio' => [
+            'title' => 'Personal Portfolio Website',
+            'description' => 'Responsive portfolio built with Laravel to showcase projects, skills, and achievements, with localization and accessibility.',
+            'tech' => 'Laravel, Blade, SCSS, Bootstrap, JavaScript, Render',
+            'github' => 'https://github.com/RituArora-DevOps/portfolio-laravel',
+            'live' => 'https://laravel-resume.onrender.com/en',
+        ],
+        'movie_explorer' => [
+            'title' => 'Movie Explorer Web App',
+            'description' => 'Server-side rendered movie app with search, filters, favorites, Google OAuth, and TMDB API integration.',
+            'tech' => 'Next.js, React, MongoDB, NextAuth, TMDB API, Tailwind CSS, Vercel',
+            'github' => 'https://github.com/RIDagher/movie-explorer-next',
+            'live' => 'https://movie-explorer-next-re3c.vercel.app',
+            'ppt' => 'https://rituarora-devops.github.io/projects-presentation/Movie%20Explorer.pdf',
+        ],
+        'online_store' => [
+            'title' => 'Online Store System',
+            'description' => 'JavaFX shopping app with Spring Boot REST API, product browsing, cart, orders, reviews, and payments using design patterns.',
+            'tech' => 'JavaFX, Spring Boot, REST API, PostgreSQL/MySQL, JPA, Maven, Docker',
+            'github' => 'https://github.com/RituArora-DevOps/online-store-system-postgres-v2',
+            'ppt' => 'https://rituarora-devops.github.io/projects-presentation/SpringBootnJavaFXML.pdf',
+        ],
     ],
 
-    'feedback_heading' => 'Give Your Feedback',
-    'feedback_text' => 'Share your thoughts on my projects.',
-    'feedback_comment_label' => 'Your Comment:',
-    'feedback_comment_invalid' => 'Please enter your comment.',
-    'feedback_rating_label' => 'Rate this project:',
-    'feedback_rating_select' => 'Select a rating',
-    'feedback_rating_invalid' => 'Please select a rating.',
-    'feedback_submit' => 'Submit',
-    'recent_feedback' => 'Recent Feedback',
+    // 'feedback_heading' => 'Give Your Feedback',
+    // 'feedback_text' => 'Share your thoughts on my projects.',
+    // 'feedback_comment_label' => 'Your Comment:',
+    // 'feedback_comment_invalid' => 'Please enter your comment.',
+    // 'feedback_rating_label' => 'Rate this project:',
+    // 'feedback_rating_select' => 'Select a rating',
+    // 'feedback_rating_invalid' => 'Please select a rating.',
+    // 'feedback_submit' => 'Submit',
+    // 'recent_feedback' => 'Recent Feedback',
 
-    'rating_5' => 'Excellent',
-    'rating_4' => 'Very good',
-    'rating_3' => 'Average',
-    'rating_2' => 'Not great',
-    'rating_1' => 'Bad',
+    // 'rating_5' => 'Excellent',
+    // 'rating_4' => 'Very good',
+    // 'rating_3' => 'Average',
+    // 'rating_2' => 'Not great',
+    // 'rating_1' => 'Bad',
 ];
