@@ -23,15 +23,6 @@
                         </ul>
                     </section>
 
-                    @if(app()->getLocale() === 'en')
-                        <section id="quote" class="mb-5 text-center fst-italic">
-                            <blockquote class="blockquote">
-                                <p id="quote-text">…</p>
-                                <footer id="quote-author"></footer>
-                            </blockquote>
-                        </section>
-                    @endif
-
                     <section id="contact-info" class="text-center">
                         <p><strong>Email:</strong> <a href="mailto:arora0824@gmail.com">arora0824@gmail.com</a></p>
                         <p><strong>GitHub:</strong> <a
@@ -40,7 +31,6 @@
                                 href="https://linkedin.com/in/ritu-arora-dr">linkedin.com/in/ritu-arora-dr</a></p>
                         <p><strong>Location:</strong> Greater Montréal, QC</p>
                     </section>
-
                 </div>
             </div>
         </div>
