@@ -31,16 +31,6 @@
                         <i class="bi bi-kanban"></i> {{ __('navbar.projects') }}
                     </a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="{{ route('certifications', ['lang' => app()->getLocale()]) }}">
-                        <i class="bi bi-award"></i> {{ __('navbar.certifications') }}
-                    </a>
-                </li> -->
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="{{ route('contact', ['lang' => app()->getLocale()]) }}">
-                        <i class="bi bi-envelope"></i> {{ __('navbar.contact') }}
-                    </a>
-                </li> -->
             </ul>
 
             <div class="ms-3">

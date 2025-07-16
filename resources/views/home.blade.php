@@ -16,11 +16,11 @@
       {{ __('navbar.resume') }}
       </a>
 
-    </div>
+      <!-- </div>
     <div class="profile-image">
-      <!-- <img src="{{ asset('images/dp-nobg2.png') }}" alt="{{ __('home.profile_alt') }}" class="img-fluid" /> -->
+      <img src="{{ asset('images/dp-nobg2.png') }}" alt="{{ __('home.profile_alt') }}" class="img-fluid" />
     </div>
-    </div>
+    </div> -->
   </section>
 
   <!-- Featured Projects Section -->
@@ -85,7 +85,7 @@
         <ul>
           <li>{{ __('home.portfolio.description') }}</li>
           <li>{{ __('home.portfolio.tech') }}</li>
-          <li>{{ __('home.portfolio.upcoming') }}</li>
+          <!-- <li>{{ __('home.portfolio.upcoming') }}</li> -->
         </ul>
         <div class="d-flex flex-wrap gap-2 mt-3">
           <a href="https://github.com/RituArora-DevOps/portfolio-laravel.git" target="_blank"

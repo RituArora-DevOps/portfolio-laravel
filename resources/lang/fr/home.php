@@ -17,13 +17,12 @@ return [
     'title' => 'Système de gestion de garderie',
     'description' => 'Un système complet pour gérer les dossiers des enfants, les éducateurs, les horaires et la communication avec les parents dans les centres de garde.',
     'tech' => 'Technologies utilisées : PHP Slim, MeekroDB, Twig, Bootstrap, JS, Apache',
-  ],
-  'portfolio' => [
-    'title' => 'Site personnel de portfolio',
-    'description' => 'Un portfolio personnel présentant mes compétences, projets et publications.',
-    'tech' => 'Technologies utilisées : HTML, SASS, JavaScript, Bootstrap, Laravel, MySQL, Apache',
-    'upcoming' => 'Amélioration à venir : Intégration Laravel pour un contenu dynamique et des fonctionnalités backend.',
-  ],
+  // ],
+  // 'portfolio' => [
+  //   'title' => 'Site personnel de portfolio',
+  //   'description' => 'Un portfolio personnel présentant mes compétences, projets et publications.',
+  //   'tech' => 'Technologies utilisées : HTML, SASS, JavaScript, Bootstrap, Laravel, MySQL, Apache',
+  // ],
 
   'source_code' => 'Code source',
   'ppt' => 'PPT',
