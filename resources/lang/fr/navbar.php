@@ -5,7 +5,7 @@ return [
     'about' => 'À propos',
     'skills' => 'Compétences',
     'projects' => 'Projets',
-    'publications' => 'Publications',
+    // 'publications' => 'Publications',
     // 'certifications' => 'Certifications',
     // 'contact' => 'Contact',
     'resume' => 'Résumé',

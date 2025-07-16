@@ -33,6 +33,6 @@ Route::group([
     Route::get('/skills', fn() => view('skills'))->name('skills');
     Route::get('/projects', fn() => view('projects'))->name('projects');
     // Route::get('/publications', fn() => view('publications'))->name('publications');
-    Route::get('/certifications', fn() => view('certifications'))->name('certifications');
+    // Route::get('/certifications', fn() => view('certifications'))->name('certifications');
     Route::get('/contact', fn() => view('contact'))->name('contact');
 });
