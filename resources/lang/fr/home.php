@@ -3,7 +3,7 @@
 return [
   'page_title' => 'Accueil',
   'name' => 'Ritu Arora',
-  'tagline' => 'Développeuse Full Stack | Ingénieure DevOps | Apprenante perpétuelle',
+  'tagline' => 'Développeuse Full Stack | Ingénieure DevOps | Passionnée de Cloud et d’Automatisation',
   'intro' => 'Bienvenue sur mon portfolio ! Je conçois des solutions logicielles innovantes qui améliorent l’efficacité dans divers domaines.',
   // 'profile_alt' => 'Photo de profil de Ritu Arora',
   'projects_heading' => 'Projets en vedette',
@@ -17,12 +17,12 @@ return [
     'title' => 'Système de gestion de garderie',
     'description' => 'Un système complet pour gérer les dossiers des enfants, les éducateurs, les horaires et la communication avec les parents dans les centres de garde.',
     'tech' => 'Technologies utilisées : PHP Slim, MeekroDB, Twig, Bootstrap, JS, Apache',
-  // ],
-  // 'portfolio' => [
-  //   'title' => 'Site personnel de portfolio',
-  //   'description' => 'Un portfolio personnel présentant mes compétences, projets et publications.',
-  //   'tech' => 'Technologies utilisées : HTML, SASS, JavaScript, Bootstrap, Laravel, MySQL, Apache',
-  // ],
+  ],
+  'portfolio' => [
+    'title' => 'Site personnel de portfolio',
+    'description' => 'Un portfolio personnel présentant mes compétences, projets et publications.',
+    'tech' => 'Technologies utilisées : HTML, SASS, JavaScript, Bootstrap, Laravel, MySQL, Apache',
+  ],
 
   'source_code' => 'Code source',
   'ppt' => 'PPT',

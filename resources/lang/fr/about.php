@@ -2,15 +2,16 @@
 
 return [
     'page_title' => 'À propos de moi',
-    'description' => "Dr. Ritu Arora - Développeuse Full Stack | Passionnée de DevOps | Développeuse de logiciels scientifiques",
+    'description' => 'Ritu Arora - Développeuse Full Stack | Ingénieure DevOps | Passionnée de Cloud et d’Automatisation',
     'biography_heading' => 'Biographie',
-    'biography_text' => "Titulaire d’un doctorat en science computationnelle, je me reconvertis dans le domaine technologique avec une expérience pratique en DevOps et une formation formelle en développement Full Stack. J’allie expertise scientifique approfondie et compétences concrètes en développement web et en automatisation des systèmes. Passionnée par la résolution de problèmes complexes, je m’épanouis dans des environnements agiles où je peux contribuer à travers l’apprentissage continu, l’innovation logicielle et le travail collaboratif.",
-    'career_heading' => 'Moments forts de carrière',
+    'biography_text' => "Je suis développeuse Full Stack et ingénieure DevOps avec une solide expérience dans la création d'applications évolutives et l'automatisation des workflows. Grâce à une formation formelle en développement logiciel et à une expérience pratique en CI/CD, conteneurisation et technologies cloud, je m’efforce de fournir des solutions propres, efficaces et sécurisées. Mon parcours scientifique me donne un avantage unique, combinant pensée analytique et passion pour les pratiques de développement modernes.",
+
+    'career_heading' => 'Faits saillants de carrière',
     'career_items' => [
-        'Formation en développement Full Stack au Collège John Abbott et apprentissage pratique des technologies CI/CD et cloud',
-        'Recherche postdoctorale en chimie computationnelle avec des outils de simulation et automatisation de workflows',
-        'Développement d’API REST et de solutions containerisées avec Python, Shell, Docker et SQLite',
-        'Professeure adjointe enseignant Python et compétences informatiques pour chimistes',
-        '12+ publications scientifiques dans des revues internationales et présentations en conférence',
+        'Formation axée sur les projets en développement Full Stack, pipelines CI/CD et déploiement cloud',
+        'Expérience pratique dans le développement d’API REST, la conteneurisation d’applications et l’automatisation de systèmes avec Docker, GitHub Actions et Bash',
+        'Création et déploiement d’applications web complètes avec Python, Laravel, Node.js, Spring Boot, JavaScript, React, Next.js, MySQL, PostgreSQL et MongoDB',
+        'Expérience dans l’enseignement du Python et des outils informatiques',
+        'Autrice publiée avec de solides compétences en recherche et en rédaction technique',
     ],
 ];

@@ -2,15 +2,16 @@
 
 return [
     'page_title' => 'About Me',
-    'description' => 'Ritu Arora - Full Stack Developer | DevOps Enthusiast | Scientific Software Developer',
+    'description' => 'Ritu Arora - Full Stack Developer | DevOps Engineer | Cloud & Automation Enthusiast',
     'biography_heading' => 'Biography',
-    'biography_text' => "PhD in Computational Science transitioning into the tech world with hands-on DevOps experience and formal full stack development training. I combine deep scientific expertise with practical web development and system automation skills. Passionate about solving complex problems, I thrive in agile environments where I can contribute through continuous learning, software innovation, and collaborative development.",
+    'biography_text' => "I'm a Full Stack Developer and DevOps Engineer with a strong foundation in building scalable applications and automating workflows. With formal training in software development and real-world experience across CI/CD, containerization, and cloud technologies, I focus on delivering clean, efficient, and secure solutions. I bring a unique edge from my scientific background, combining analytical thinking with a passion for modern development practices.",
+
     'career_heading' => 'Career Highlights',
     'career_items' => [
-        'Full Stack Developer training at John Abbott College and project-based learning in CI/CD and cloud technologies',
-        'Postdoctoral research in computational chemistry using simulation tools and workflow automation',
-        'Developed REST APIs and containerized scientific tools using Python, Shell, Docker, and SQLite',
-        'Assistant Professor teaching Python and IT Skills for Chemists',
-        '12+ peer-reviewed scientific publications and multiple conference presentations',
+        'Project-based training in full stack development, CI/CD pipelines, and cloud deployment',
+        'Hands-on experience developing REST APIs, containerizing apps, and automating systems using Docker, GitHub Actions, and Bash',
+        'Built and deployed full-featured web applications using Python, Laravel, Node.js, Spring Boot, JavaScript, React, Next.js, MySQL, Postgres, and MongoDB',
+        'Experience teaching Python and IT tools',
+        'Published author with strong research and technical writing skills',
     ],
 ];
