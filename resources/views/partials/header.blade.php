@@ -32,11 +32,6 @@
                     </a>
                 </li>
                 <!-- <li class="nav-item">
-                    <a class="nav-link" href="{{ route('publications', ['lang' => app()->getLocale()]) }}">
-                        <i class="bi bi-journal"></i> {{ __('navbar.publications') }}
-                    </a>
-                </li> -->
-                <!-- <li class="nav-item">
                     <a class="nav-link" href="{{ route('certifications', ['lang' => app()->getLocale()]) }}">
                         <i class="bi bi-award"></i> {{ __('navbar.certifications') }}
                     </a>

@@ -2,10 +2,10 @@
 
 return [
   'page_title' => 'Accueil',
-  'name' => 'Dr. Ritu Arora',
-  'tagline' => 'Développeuse Full Stack | Ingénieure DevOps | Chimiste computationnelle | Chercheuse scientifique | Apprenante perpétuelle',
+  'name' => 'Ritu Arora',
+  'tagline' => 'Développeuse Full Stack | Ingénieure DevOps | Apprenante perpétuelle',
   'intro' => 'Bienvenue sur mon portfolio ! Je conçois des solutions logicielles innovantes qui améliorent l’efficacité dans divers domaines.',
-  'profile_alt' => 'Photo de profil de Dr. Ritu Arora',
+  // 'profile_alt' => 'Photo de profil de Ritu Arora',
   'projects_heading' => 'Projets en vedette',
 
   'car_rental' => [

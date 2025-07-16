@@ -2,10 +2,10 @@
 
 return [
     'page_title' => 'Home',
-    'name' => 'Dr. Ritu Arora',
-    'tagline' => 'Full Stack Developer | DevOps Engineer | Computational Chemist | Scientific Researcher | Lifelong Learner',
+    'name' => 'Ritu Arora',
+    'tagline' => 'Full Stack Developer | DevOps Engineer |  Lifelong Learner',
     'intro' => 'Welcome to my portfolio! I build scalable, efficient, and secure web applications using modern full stack and DevOps technologies.',
-    'profile_alt' => "Ritu Arora's Profile Picture",
+    // 'profile_alt' => "Ritu Arora's Profile Picture",
 
     'projects_heading' => 'Featured Projects',
 
@@ -23,7 +23,6 @@ return [
         'title' => 'Personal Portfolio Website',
         'description' => 'A personal portfolio showcasing my skills, projects, and publications.',
         'tech' => 'Technologies Used: HTML, SASS, JavaScript, Bootstrap, Laravel, MySQL, Apache',
-        'upcoming' => 'Upcoming Enhancement: Laravel integration for dynamic content and backend functionality.',
     ],
 
     'source_code' => 'Source Code',

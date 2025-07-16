@@ -18,7 +18,7 @@
 
     </div>
     <div class="profile-image">
-      <img src="{{ asset('images/dp-nobg2.png') }}" alt="{{ __('home.profile_alt') }}" class="img-fluid" />
+      <!-- <img src="{{ asset('images/dp-nobg2.png') }}" alt="{{ __('home.profile_alt') }}" class="img-fluid" /> -->
     </div>
     </div>
   </section>
