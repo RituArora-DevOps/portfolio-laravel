@@ -4,8 +4,8 @@ return [
     'page_title' => 'Home',
     'name' => 'Dr. Ritu Arora',
     'tagline' => 'Full Stack Developer | DevOps Engineer | Computational Chemist | Scientific Researcher | Lifelong Learner',
-    'intro' => 'Welcome to my portfolio! I specialize in developing innovative software solutions that enhance efficiency across various fields.',
-    'profile_alt' => "Dr. Ritu Arora's Profile Picture",
+    'intro' => 'Welcome to my portfolio! I build scalable, efficient, and secure web applications using modern full stack and DevOps technologies.',
+    'profile_alt' => "Ritu Arora's Profile Picture",
 
     'projects_heading' => 'Featured Projects',
 
