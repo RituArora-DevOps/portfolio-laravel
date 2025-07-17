@@ -46,7 +46,7 @@
           target="_blank" class="btn btn-outline-primary">{{ __('home.ppt') }}</a>
           <a href="https://youtu.be/VGSBVmFnqrc" target="_blank"
           class="btn btn-outline-success">{{ __('home.view_demo') }}</a>
-          <a href="https://carrentalmanagement.onrender.com " target="_blank"
+          <a href="https://carrentalmanagement.onrender.com" target="_blank"
           class="btn btn-outline-info">{{ __('home.view_live') }}</a>
         </div>
         </div>
@@ -68,7 +68,7 @@
           class="btn btn-outline-dark">{{ __('home.source_code') }}</a>
           <a href="https://rituarora-devops.github.io/projects-presentation/Team4-DayCareSystemManagement.pdf"
           target="_blank" class="btn btn-outline-primary">{{ __('home.ppt') }}</a>
-          <a href="https://team4.fsd13.ca" target="_blank"
+          <a href="https://daycare-management.42web.io/" target="_blank"
           class="btn btn-outline-success">{{ __('home.view_live') }}</a>
         </div>
         </div>

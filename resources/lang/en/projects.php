@@ -13,7 +13,7 @@ return [
             'tech' => 'Node.js, Express.js, MySQL, Bootstrap, Render',
             'github' => 'https://github.com/RituArora-DevOps/RentnDrive',
             'demo' => 'https://www.youtube.com/watch?v=VGSBVmFnqrc',
-            'live' => 'https://car-rental-web-dy3f.onrender.com',
+            'live' => 'https://carrentalmanagement.onrender.com',
             'ppt' => 'https://rituarora-devops.github.io/projects-presentation/CarRentalSystem-final.pdf',
             'images' => [
                 'projects/car_rental/1.PNG',
@@ -70,12 +70,12 @@ return [
             'tech' => 'JavaFX, Spring Boot, REST API, PostgreSQL/MySQL, JPA, Maven, Docker',
             'github' => 'https://github.com/RituArora-DevOps/online-store-system-postgres-v2',
             'ppt' => 'https://rituarora-devops.github.io/projects-presentation/SpringBootnJavaFXML.pdf',
-            'images' => [
-                'projects/online_store/1.PNG',
-                'projects/online_store/2.PNG',
-                'projects/online_store/3.PNG',
-                'projects/online_store/4.PNG',
-            ],
+            // 'images' => [
+            //     'projects/online_store/1.PNG',
+            //     'projects/online_store/2.PNG',
+            //     'projects/online_store/3.PNG',
+            //     'projects/online_store/4.PNG',
+            // ],
         ],
     ],
 ];
