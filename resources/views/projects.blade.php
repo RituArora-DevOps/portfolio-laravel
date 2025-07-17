@@ -67,3 +67,13 @@
         </div>
     </div>
 @endsection
+
+@push('styles')
+    <style>
+        .carousel-item img {
+            max-height: 250px;
+            object-fit: cover;
+            border-radius: 0.25rem;
+        }
+    </style>
+@endpush
