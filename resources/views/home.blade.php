@@ -42,11 +42,11 @@
         <div class="d-flex flex-wrap gap-2 mt-3">
           <a href="https://github.com/RituArora-DevOps/RentnDrive.git" target="_blank"
           class="btn btn-outline-dark">{{ __('home.source_code') }}</a>
-          <a href="https://johnabbott-my.sharepoint.com/:p:/g/personal/6347472_johnabbottcollege_net/ET5Tcd8-XK5ArPMco5dLNNkBJGi-lbZYCZZf7KdHmdklDA?e=KCCLp6"
+          <a href="https://rituarora-devops.github.io/projects-presentation/CarRentalSystem-final.pdf"
           target="_blank" class="btn btn-outline-primary">{{ __('home.ppt') }}</a>
           <a href="https://youtu.be/VGSBVmFnqrc" target="_blank"
           class="btn btn-outline-success">{{ __('home.view_demo') }}</a>
-          <a href="https://car-rental-web-dy3f.onrender.com" target="_blank"
+          <a href="https://carrentalmanagement.onrender.com " target="_blank"
           class="btn btn-outline-info">{{ __('home.view_live') }}</a>
         </div>
         </div>
@@ -66,7 +66,7 @@
         <div class="d-flex flex-wrap gap-2 mt-3">
           <a href="https://github.com/FYFYBai/DayCare_Team4.git" target="_blank"
           class="btn btn-outline-dark">{{ __('home.source_code') }}</a>
-          <a href="https://johnabbott-my.sharepoint.com/:p:/g/personal/6347472_johnabbottcollege_net/EZ4fMFfBrglFoiNuhL8s3gABdigdZp9ne0JibD0WUK-z9Q?e=IIzw7p"
+          <a href="https://rituarora-devops.github.io/projects-presentation/Team4-DayCareSystemManagement.pdf"
           target="_blank" class="btn btn-outline-primary">{{ __('home.ppt') }}</a>
           <a href="https://team4.fsd13.ca" target="_blank"
           class="btn btn-outline-success">{{ __('home.view_live') }}</a>
