@@ -45,7 +45,7 @@ return [
             'github' => 'https://github.com/RituArora-DevOps/portfolio-laravel',
             'live' => 'https://laravel-resume.onrender.com/fr',
             'images' => [
-                'projects/portfolio/1.png',
+                'projects/portfolio/1.PNG',
             ],
         ],
         'movie_explorer' => [
