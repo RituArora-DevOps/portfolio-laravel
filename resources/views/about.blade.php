@@ -22,15 +22,6 @@
                             @endforeach
                         </ul>
                     </section>
-
-                    <section id="contact-info" class="text-center">
-                        <p><strong>Email:</strong> <a href="mailto:arora0824@gmail.com">arora0824@gmail.com</a></p>
-                        <p><strong>GitHub:</strong> <a
-                                href="https://github.com/RituArora-DevOps">github.com/RituArora‑DevOps</a></p>
-                        <p><strong>LinkedIn:</strong> <a
-                                href="https://linkedin.com/in/ritu-arora-dr">linkedin.com/in/ritu-arora-dr</a></p>
-                        <p><strong>Location:</strong> Greater Montréal, QC</p>
-                    </section>
                 </div>
             </div>
         </div>
