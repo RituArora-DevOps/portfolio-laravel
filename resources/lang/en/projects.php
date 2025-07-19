@@ -16,10 +16,10 @@ return [
             'live' => 'https://carrentalmanagement.onrender.com',
             'ppt' => 'https://rituarora-devops.github.io/projects-presentation/CarRentalSystem-final.pdf',
             'images' => [
-                'projects/car_rental/1.PNG',
-                'projects/car_rental/2.PNG',
-                'projects/car_rental/3.PNG',
-                'projects/car_rental/4.PNG',
+                'projects/car_rental/1.png',
+                'projects/car_rental/2.png',
+                'projects/car_rental/3.png',
+                'projects/car_rental/4.png',
             ],
         ],
         'daycare' => [
@@ -30,13 +30,13 @@ return [
             'live' => 'https://daycare-management.42web.io/',
             'ppt' => 'https://rituarora-devops.github.io/projects-presentation/Team4-DayCareSystemManagement.pdf',
             'images' => [
-                'projects/day_care/1.PNG',
-                'projects/day_care/2.PNG',
-                'projects/day_care/3.PNG',
-                'projects/day_care/4.PNG',
-                'projects/day_care/5.PNG',
-                'projects/day_care/6.PNG',
-                'projects/day_care/7.PNG',
+                'projects/day_care/1.png',
+                'projects/day_care/2.png',
+                'projects/day_care/3.png',
+                'projects/day_care/4.png',
+                'projects/day_care/5.png',
+                'projects/day_care/6.png',
+                'projects/day_care/7.png',
             ],
         ],
         'portfolio' => [
@@ -46,7 +46,7 @@ return [
             'github' => 'https://github.com/RituArora-DevOps/portfolio-laravel',
             'live' => 'https://laravel-resume.onrender.com/en',
             'images' => [
-                'projects/portfolio/1.PNG',
+                'projects/portfolio/1.png',
             ],
         ],
         'movie_explorer' => [
@@ -57,11 +57,11 @@ return [
             'live' => 'https://movie-explorer-next-re3c.vercel.app',
             'ppt' => 'https://rituarora-devops.github.io/projects-presentation/Movie%20Explorer.pdf',
             'images' => [
-                'projects/movie_explorer/1.PNG',
-                'projects/movie_explorer/2.PNG',
-                'projects/movie_explorer/3.PNG',
-                'projects/movie_explorer/4.PNG',
-                'projects/movie_explorer/5.PNG',
+                'projects/movie_explorer/1.png',
+                'projects/movie_explorer/2.png',
+                'projects/movie_explorer/3.png',
+                'projects/movie_explorer/4.png',
+                'projects/movie_explorer/5.png',
             ],
         ],
         'online_store' => [
@@ -70,12 +70,14 @@ return [
             'tech' => 'JavaFX, Spring Boot, REST API, PostgreSQL/MySQL, JPA, Maven, Docker',
             'github' => 'https://github.com/RituArora-DevOps/online-store-system-postgres-v2',
             'ppt' => 'https://rituarora-devops.github.io/projects-presentation/SpringBootnJavaFXML.pdf',
-            // 'images' => [
-            //     'projects/online_store/1.PNG',
-            //     'projects/online_store/2.PNG',
-            //     'projects/online_store/3.PNG',
-            //     'projects/online_store/4.PNG',
-            // ],
+            'images' => [
+                'projects/online_store/1.png',
+                'projects/online_store/2.png',
+                'projects/online_store/3.png',
+                'projects/online_store/4.png',
+                'projects/online_store/5.png',
+                'projects/online_store/6.png',
+            ],
         ],
     ],
 ];
