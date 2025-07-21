@@ -10,10 +10,11 @@
   margin: 0; // Remove top margin
   padding: 0;
   display: flex; // Use flexbox for layout
-  align-items: flex-end; // Align items to the bottom
-  justify-content: flex-start; // Align items to the start (left)
+  align-items: center; // Align items to the bottom
+  justify-content: center; // Align items to the start (left)
+  text-align:center;
   position: relative; // Position relative for child elements
-  height: 80vh; // Set height to 80% of the viewport height
+  min-height: 50vh; // Set height to 80% of the viewport height
 
   // Responsive height adjustment for larger screens
   @include breakpoints.media-breakpoint-up(lg) {
