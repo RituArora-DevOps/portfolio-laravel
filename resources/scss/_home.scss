@@ -14,7 +14,7 @@
   justify-content: center; // Align items to the start (left)
   text-align:center;
   position: relative; // Position relative for child elements
-  min-height: 50vh; // Set height to 80% of the viewport height
+  min-height: 80vh; // Set height to 80% of the viewport height
 
   // Responsive height adjustment for larger screens
   @include breakpoints.media-breakpoint-up(lg) {
