@@ -69,14 +69,14 @@ return [
             'tech' => 'JavaFX, Spring Boot, REST API, PostgreSQL/MySQL, JPA, Maven, Docker',
             'github' => 'https://github.com/RituArora-DevOps/online-store-system-postgres-v2',
             'ppt' => 'https://rituarora-devops.github.io/projects-presentation/SpringBootnJavaFXML.pdf',
-            'images' => [
-                'projects/online_store/1.PNG',
-                'projects/online_store/2.PNG',
-                'projects/online_store/3.PNG',
-                'projects/online_store/4.PNG',
-                'projects/online_store/5.PNG',
-                'projects/online_store/6.PNG',
-            ],
+            // 'images' => [
+            //     'projects/online_store/1.PNG',
+            //     'projects/online_store/2.PNG',
+            //     'projects/online_store/3.PNG',
+            //     'projects/online_store/4.PNG',
+            //     'projects/online_store/5.PNG',
+            //     'projects/online_store/6.PNG',
+            // ],
         ],
     ],
 ];

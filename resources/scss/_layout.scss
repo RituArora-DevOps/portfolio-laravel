@@ -6,11 +6,17 @@
 // Import Bootstrap styles for quick layout and components
 @import "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/scss/bootstrap";
 
+main {
+    padding: 0;
+    margin: 0;
+}
+
 // Body styles
 body {
   background: vars.$background-color; // Set background color using the variable
   color: vars.$primary-color; // Set text color using the variable
-
+  margin: 0;
+  padding: 0;
   // removed the global smooth scrolling definition
   // scroll-behavior: smooth; // Enable smooth scrolling globally
 }

@@ -7,7 +7,8 @@
   background: linear-gradient(to right, vars.$primary-color, vars.$secondary-color);
   color: vars.$secondary-color; // Set text color to secondary color
   padding: 0; // Remove default padding
-  margin-top: 0; // Remove top margin
+  margin: 0; // Remove top margin
+  padding: 0;
   display: flex; // Use flexbox for layout
   align-items: flex-end; // Align items to the bottom
   justify-content: flex-start; // Align items to the start (left)

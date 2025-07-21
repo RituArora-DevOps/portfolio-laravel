@@ -4,7 +4,8 @@
 
 @section('content')
   <!-- Jumbotron / Hero Section -->
-  <section class="jumbotron my-4" aria-labelledby="main-heading">
+  <section class="jumbotron vh-100 d-flex align-items-center justify-content-center m-0 p-0"
+    aria-labelledby="main-heading">
     <div class="container">
     <div class="content">
       <h1 class="display-4" id="main-heading">{{ __('home.name') }}</h1>

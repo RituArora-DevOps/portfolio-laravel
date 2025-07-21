@@ -5,6 +5,8 @@
 
 // Applying styles to the body element
 body {
+  margin: 0; // Remove default margin
+  padding: 0; // Remove default padding
   // Set the background color using the variable defined in variables3
   background: $background-color; 
   
